@@ -84,6 +84,10 @@ body > header {
   justify-content: center;
 }
 
+ul {
+  margin: 0.8em 0;
+}
+
 header h1 {
   color: #5b005b;
   flex: 1 0 auto;
@@ -139,7 +143,7 @@ article .tags {
 
 article .job {
   border-top: 1px solid #dadada;
-  padding: 1.2em 0 0;
+  padding: 1em 0 0;
 }
 
 article .job:first-of-type {
@@ -148,7 +152,7 @@ article .job:first-of-type {
 }
 
 article .job section {
-  margin-top: 1.2em;
+  margin-top: 1em;
 }
 
 li > ul {
