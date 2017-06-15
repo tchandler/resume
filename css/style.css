@@ -119,7 +119,7 @@ section.skills section {
   word-wrap: nowrap;
 }
 
-section.skills section, section article {
+section.skills section, h2 + article {
   width: 83%;
 }
 
@@ -211,4 +211,5 @@ li > ul {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
   section.job:nth-of-type(5) { border-top: none; }
+  section.job { page-break-inside: avoid; }
 }
