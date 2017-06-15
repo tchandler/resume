@@ -85,7 +85,11 @@ body > header {
 }
 
 ul {
-  margin: 0.8em 0;
+  margin: 0.5em 0;
+}
+
+p {
+  margin: 0.4em 0;
 }
 
 header h1 {
@@ -115,7 +119,7 @@ section.skills section {
   word-wrap: nowrap;
 }
 
-section.skills section, section > article {
+section.skills section, section article {
   width: 83%;
 }
 
@@ -206,4 +210,5 @@ li > ul {
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+  section.job:nth-of-type(5) { border-top: none; }
 }
