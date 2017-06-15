@@ -134,6 +134,7 @@ article .dates {
 article .tags {
   display: block;
   font-style: italic;
+  margin-top: 0.2em;
 }
 
 article .job {
